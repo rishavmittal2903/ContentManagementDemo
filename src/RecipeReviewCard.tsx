@@ -14,7 +14,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import Receipe from "/receipe.jpg"
+import Receipe from "./receipe.jpg"
 import { useTranslation } from 'react-i18next';
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
@@ -57,7 +57,7 @@ export default function RecipeReviewCard() {
       <CardMedia
         component="img"
         height="194"
-        image={Receipe ?? "/receipe.jpg"}
+        image={Receipe}
         alt="Paella dish"
       />
       <CardContent>
